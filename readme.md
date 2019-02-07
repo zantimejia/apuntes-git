@@ -22,7 +22,6 @@ git config --list
 Esta línea fue creada en la rama master.
 
 ###Comandos
-
 git init
 git add - todos git add .
 git commit
