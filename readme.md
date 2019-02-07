@@ -27,6 +27,7 @@ git add nombreArchivo
 git add . * Para hacer commit a todos los archivos
 git add -A * Agrega archivos que ya seguimos y estan en el directorio de preparacion.
 git commit -m "Comment"
+git commit --amend * Para modificar un commit
 git reset HEAD nombreArchivo * Para sacar archivos del directorio de preparacion
 git status
 git log
