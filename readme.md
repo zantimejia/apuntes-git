@@ -20,3 +20,9 @@ git config --list
 ```
 
 Esta línea fue creada en la rama master.
+
+###Comandos
+
+git init
+git add
+git commit
