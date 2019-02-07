@@ -23,8 +23,11 @@ Esta línea fue creada en la rama master.
 
 ###Comandos
 git init
-git add - todos git add .
-git commit
+git add nombreArchivo
+git add . * Para hacer commit a todos los archivos
+git commit -m "Comment"
+git reset HEAD nombreArchivo * Para sacar archivos del directorio de preparacion
 git status
+git log
 git diff - Para saber que tenemos en el directorio de trabajo.
 git diff --staged - Para saber lo que tenemos en el directorio de preparacion.
