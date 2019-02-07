@@ -24,5 +24,8 @@ Esta línea fue creada en la rama master.
 ###Comandos
 
 git init
-git add
+git add - todos git add .
 git commit
+git status
+git diff - Para saber que tenemos en el directorio de trabajo.
+git diff --staged - Para saber lo que tenemos en el directorio de preparacion.
