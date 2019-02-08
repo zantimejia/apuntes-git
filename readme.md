@@ -20,17 +20,3 @@ git config --list
 ```
 
 Esta línea fue creada en la rama master.
-
-###Comandos
-git init
-git add nombreArchivo
-git add . * Para hacer commit a todos los archivos
-git add -A * Agrega archivos que ya seguimos y estan en el directorio de preparacion.
-git commit
-git commit -m "Comment"
-git commit --amend * Para modificar un commit
-git reset HEAD nombreArchivo * Para sacar archivos del directorio de preparacion
-git status
-git log
-git diff - Para saber que tenemos en el directorio de trabajo.
-git diff --staged - Para saber lo que tenemos en el directorio de preparacion.
