@@ -2,20 +2,20 @@
 -git init
 -git add nombreArchivo
 -git add . * Para hacer commit a todos los archivos
--git add -A * Agrega archivos que ya seguimos y estan en el directorio de   preparacion.
+-git add -A * Agrega archivos que ya seguimos y estan en el directorio de preparacion.
 -git commit
 -git commit -m "Comment"
--git commit -a -m "Comment" * Solo agrega los archivos que ya estamos       siguiendo
+-git commit -a -m "Comment" * Solo agrega los archivos que ya estamos siguiendo.
 -git commit --amend * Para modificar un commit
--git reset HEAD nombreArchivo * Para sacar archivos del directorio de       preparacion
+-git reset HEAD nombreArchivo * Para sacar archivos del directorio de preparacion.
 -git status
 -git log
 -git log oneline * Muestra los logs abreviados
 -git log graph * Muestra los logs con pequeños graficos ASCII
--git log --pretty=format: "%h - %an, %ar : %s" * Darle formato a los logs,  %h hash, %an autor, %ar fecha relativa y %s comentario
+-git log --pretty=format: "%h - %an, %ar : %s" * Darle formato a los logs, %h hash, %an autor, %ar fecha relativa y %s comentario.
 -git log --after,before="fecha a filtrar"
 -git diff - Para saber que tenemos en el directorio de trabajo.
--git diff --staged - Para saber lo que tenemos en el directorio de          preparacion.
--git rm nombreArchibo * Elimina archivos ratreados del direcotrio de        preparacion y de nuestro directorio de trabajo.
--git checkout -- nombreArchivo * En caso de que eliminemos un archivo, asi lo podemos recuperar del directorio de git
--git mv nombreArchivo * Renombra un archivo
+-git diff --staged - Para saber lo que tenemos en el directorio de preparacion.
+-git rm nombreArchibo * Elimina archivos ratreados del direcotrio de preparacion y de nuestro directorio de trabajo.
+-git checkout -- nombreArchivo * En caso de que eliminemos un archivo, asi lo podemos recuperar del directorio de git.
+-git mv nombreArchivo * Renombra un archivo.
