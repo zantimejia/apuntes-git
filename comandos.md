@@ -13,7 +13,7 @@
 -git log oneline * Muestra los logs abreviados
 -git log graph * Muestra los logs con pequeños graficos ASCII
 -git log --pretty=format: "%h - %an, %ar : %s" * Darle formato a los logs,  %h hash, %an autor, %ar fecha relativa y %s comentario
--git log --after="fecha a filtrar"
+-git log --after,before="fecha a filtrar"
 -git diff - Para saber que tenemos en el directorio de trabajo.
 -git diff --staged - Para saber lo que tenemos en el directorio de          preparacion.
 -git rm nombreArchibo * Elimina archivos ratreados del direcotrio de        preparacion y de nuestro directorio de trabajo.
