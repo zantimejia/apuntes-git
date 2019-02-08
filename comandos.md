@@ -12,6 +12,6 @@
 -git log
 -git diff - Para saber que tenemos en el directorio de trabajo.
 -git diff --staged - Para saber lo que tenemos en el directorio de          preparacion.
--git rm nombreArchibo * Elimina archivos ratreados del repositorio y de     nuestro directorio de trabajo.
+-git rm nombreArchibo * Elimina archivos ratreados del direcotrio de        preparacion y de nuestro directorio de trabajo.
 -git checkout -- nombreArchivo * En caso de que eliminemos un archivo, asi lo podemos recuperar del directorio de git
 -git mv nombreArchivo * Renombra un archivo
