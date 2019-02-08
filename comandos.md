@@ -10,6 +10,8 @@
 -git reset HEAD nombreArchivo * Para sacar archivos del directorio de       preparacion
 -git status
 -git log
+-git log oneline * Muestra los logs abreviados
+-git log graph * Muestra los logs con pequeños graficos ASCII
 -git diff - Para saber que tenemos en el directorio de trabajo.
 -git diff --staged - Para saber lo que tenemos en el directorio de          preparacion.
 -git rm nombreArchibo * Elimina archivos ratreados del direcotrio de        preparacion y de nuestro directorio de trabajo.
