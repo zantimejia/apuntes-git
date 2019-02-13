@@ -6,22 +6,22 @@
 -git commit
 -git commit -m "Comment"
 -git commit -a -m "Comment" * Solo agrega los archivos que ya estamos siguiendo.
--git commit --amend * Para modificar un commit, ya sea un comentario o agregar un archivo olvidado a ese commit. Para este          ultimo se debe primero hacer add del archivo     olvidado para que el amend lo coja y lo llegue al area de preparacion.
+-git commit --amend * Para modificar un commit, ya sea un comentario o agregar un archivo olvidado a ese commit. Para este ultimo se debe primero hacer add del archivo   olvidado para que el amend lo coja y lo llegue al area de preparacion.
 -git reset HEAD nombreArchivo * Para sacar archivos del directorio de preparacion.
 -git status
 -git log
 -git log oneline * Muestra los logs abreviados
 -git log graph * Muestra los logs con pequeños graficos ASCII
--git log --pretty=format: "%h - %an, %ar : %s" * Darle formato a los logs, %h hash, %an autor, %ar fecha relativa y %s              comentario.
+-git log --pretty=format: "%h - %an, %ar : %s" * Darle formato a los logs, %h hash, %an autor, %ar fecha relativa y %s comentario.
 -git log --after,before="fecha a filtrar"
 -git diff - Para saber que tenemos en el directorio de trabajo.
 -git diff --staged - Para saber lo que tenemos en el directorio de preparacion.
 -git rm nombreArchibo * Elimina archivos ratreados del direcotrio de preparacion y de nuestro directorio de trabajo.
--git checkout -- nombreArchivo * En caso de que eliminemos un archivo, asi lo podemos recuperar del directorio de git o usando      el hash de algun punto especifico del tiempo.
+-git checkout -- nombreArchivo * En caso de que eliminemos un archivo, asi lo podemos recuperar del directorio de git o usando el hash de algun punto especifico del tiempo.
 -git mv nombreArchivo * Renombra un archivo.
 -git clone url del repositorio
--git tag nombreEtiqueta * [Etiqueta Ligera], crea una etiqueta y se la asigna al ultimo commit que se realizo. [Usadas para         destacar algo con importancia baja]
--git tag -a nombreEtiqueta -m "Comment" *  [Etiqueta Anotada], crea una etiqueta y se la asigna al ultimo commit que se             realizo. [Usadas para destacar commit's con importancia alta como una version]
+-git tag nombreEtiqueta * [Etiqueta Ligera], crea una etiqueta y se la asigna al ultimo commit que se realizo. [Usadas para destacar algo con importancia baja]
+-git tag -a nombreEtiqueta -m "Comment" *  [Etiqueta Anotada], crea una etiqueta y se la asigna al ultimo commit que se realizo. [Usadas para destacar commit's con importancia alta como una version]
 -git tag nombreEtiqueta hash * Le asigna una etiqueta a algun punto escogido en la historia.
 -git tag * para listar las etiquetas que tengamos
 -git show nombreEtiqueta o hash * Muestra el commit al que le hemos asignado la etiqueta
