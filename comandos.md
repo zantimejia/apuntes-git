@@ -6,7 +6,7 @@
 -git commit
 -git commit -m "Comment"
 -git commit -a -m "Comment" * Solo agrega los archivos que ya estamos siguiendo.
--git commit --amend * Para modificar un commit, ya sea un comentario o agregar un archivo olvidado a ese commit
+-git commit --amend * Para modificar un commit, ya sea un comentario o agregar un archivo olvidado a ese commit. Para este ultimo se debe primero hacer add del archivo     olvidado para que el amend lo coja y lo llegue al area de preparacion.
 -git reset HEAD nombreArchivo * Para sacar archivos del directorio de preparacion.
 -git status
 -git log
