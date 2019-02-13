@@ -22,5 +22,6 @@
 -git clone url del repositorio
 -git tag nombreEtiqueta * [Etiqueta Ligera], crea una etiqueta y se la asigna al ultimo commit que se realizo. [Usadas para         destacar algo con importancia baja]
 -git tag -a nombreEtiqueta -m "Comment" *  [Etiqueta Anotada], crea una etiqueta y se la asigna al ultimo commit que se             realizo. [Usadas para destacar commit's con importancia alta como una version]
+-git tag nombreEtiqueta hash * Le asigna una etiqueta a algun punto escogido en la historia.
 -git tag * para listar las etiquetas que tengamos
 -git show nombreEtiqueta * Muestra el commit al que le hemos asignado la etiqueta
