@@ -20,3 +20,5 @@
 -git checkout -- nombreArchivo * En caso de que eliminemos un archivo, asi lo podemos recuperar del directorio de git o usando el hash de algun punto especifico del tiempo.
 -git mv nombreArchivo * Renombra un archivo.
 -git clone url del repositorio
+-git tag nombreEtiqueta * crea una etiqueta y se la asigna al ultimo commit que se realizo
+-git tag * para listar las etiquetas que tengamos
