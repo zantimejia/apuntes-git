@@ -17,7 +17,7 @@
 -git diff - Para saber que tenemos en el directorio de trabajo.
 -git diff --staged - Para saber lo que tenemos en el directorio de preparacion.
 -git rm nombreArchibo * Elimina archivos ratreados del direcotrio de preparacion y de nuestro directorio de trabajo.
--git checkout -- nombreArchivo * En caso de que eliminemos un archivo, asi lo podemos recuperar del directorio de git o usando el hash de algun punto especifico del tiempo.
+-git checkout -- nombreArchivo, hash o etiqueta * En caso de que eliminemos un archivo, asi lo podemos recuperar del directorio de git o usando el hash de algun punto especifico del tiempo.
 -git mv nombreArchivo * Renombra un archivo.
 -git clone url del repositorio
 -git tag nombreEtiqueta * [Etiqueta Ligera], crea una etiqueta y se la asigna al ultimo commit que se realizo. [Usadas para destacar algo con importancia baja]
