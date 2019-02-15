@@ -25,3 +25,4 @@
 -git tag nombreEtiqueta hash * Le asigna una etiqueta a algun punto escogido en la historia.
 -git tag * para listar las etiquetas que tengamos
 -git show nombreEtiqueta o hash * Muestra el commit al que le hemos asignado la etiqueta
+-git branch nombreRama * Crea una nueva rama a partir del commit donde estemos ubicados. [Mundo paralelo]
