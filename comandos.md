@@ -31,5 +31,5 @@
 -git branch -d nombreRama * Elimina una rama solo si ya la hemos fusionado con otra.
 -git branch -D nombreRama * Elimina una rama sin importar si ya la hemos fusionado con otra.
 -git branch --no-merged * Nos indica que ramas no hemos fusionado con la rama actual.
--git branch --merged * Nos indica que ramas se han fusionado.
+[]
 -git merge nombreRama * Incorpora otraRama en la Rama actual.
