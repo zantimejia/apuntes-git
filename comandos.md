@@ -29,4 +29,5 @@
 -git branch * Lista las ramas y en que rama estamos actualmente.
 -git branch -v * Nos muestra las ramas y el ultimo commit de cada una de estas.
 -git branch -d nombreRama * Elimina una rama solo si ya la hemos fusionado con otra.
+-git branch -D nombreRama * Elimina una rama sin importar si ya la hemos fusionado con otra.
 -git merge nombreRama * Incorpora otraRama en la Rama actual.
