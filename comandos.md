@@ -34,3 +34,4 @@
 -git branch --merged * Nos indica que ramas se han fusionado.
 -git merge nombreRama * Incorpora otraRama en la Rama actual.
 [PruebaError]
+xxx
