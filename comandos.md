@@ -32,7 +32,6 @@
 
 ### Set de comandos relacionados con Ramas - Branch
 -git branch nombreRama * Crea una nueva rama a partir del commit donde estemos ubicados. [Mundo paralelo]
--git branch -b nombreRama * Crea una nueva rama a partir del commit donde estemos ubicados y saltamos hacia ella. [Mundo paralelo]
 -git branch * Lista las ramas y en que rama estamos actualmente.
 -git branch -v * Nos muestra las ramas y el ultimo commit de cada una de estas.
 -git branch -d nombreRama * Elimina una rama solo si ya la hemos fusionado con otra.
@@ -40,6 +39,8 @@
 -git branch --no-merged * Nos indica que ramas no hemos fusionado con la rama actual.
 -git branch --merged * Nos indica que ramas se han fusionado.
 -git merge nombreRama * Incorpora otraRama en la Rama actual.
+-git checkout -b nombreRama * Crea una nueva rama a partir del commit donde estemos ubicados y saltamos hacia ella. [Mundo paralelo]
+-git checkout -- nombreArchivo, hash, etiqueta o rama * En caso de que eliminemos un archivo, asi lo podemos recuperar del directorio de git o usando el hash de algun punto especifico del tiempo.
 
 ### Set de comandos para subir nuestro proyecto a un repositorio remoto
 
@@ -57,6 +58,5 @@
 
 ### Otros comandos
 -git rm nombreArchibo * Elimina archivos ratreados del direcotrio de preparacion y de nuestro directorio de trabajo.
--git checkout -- nombreArchivo, hash, etiqueta o rama * En caso de que eliminemos un archivo, asi lo podemos recuperar del directorio de git o usando el hash de algun punto especifico del tiempo.
 -git mv nombreArchivo * Renombra un archivo.
 -git clone url del repositorio * Copia el repositorio remoto.
