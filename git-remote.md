@@ -1,4 +1,5 @@
 #Pasos para aportar a otro repositorio
+
 1.Hacer un fork en Github.
 2.Clonar el repositorio desde mi cuenta.
 3.Crear una rama local.

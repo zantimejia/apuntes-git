@@ -1,4 +1,4 @@
-### Comandos
+# Comandos
 
 ### Para iniciar un proyecto
 -git init
