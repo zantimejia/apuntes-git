@@ -80,4 +80,5 @@ git push origin --delete nombreRama * Elimina una rama remota.
 git pull origin master * Nos trae los cambio y nos hace merge con la rama local [Nos evita usar el fetch y despues merge].
 git remote --verbose * Nos muestra los repositorios remotos que tengamos configurados.
 git remote add nombreRepo URL * Nos agrega un nuevo repositorio remoto a la configuracion.
+git revert HEAD * Para revertir un commit que hayamos hecho.
 ```
