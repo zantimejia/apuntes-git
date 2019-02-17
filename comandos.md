@@ -41,6 +41,20 @@
 -git branch --merged * Nos indica que ramas se han fusionado.
 -git merge nombreRama * Incorpora otraRama en la Rama actual.
 
+### Set de comandos para subir nuestro proyecto a un repositorio remoto
+
+### Creando repositorio desde CLI
+-echo "# apuntes-git" >> README.md
+-git init
+-git add README.md
+-git commit -m "first commit"
+-git remote add origin https://github.com/zantimejia/apuntes-git.git * Url del repositorio
+-git push -u origin master
+
+### Repositorio existente
+-git remote add origin https://github.com/zantimejia/apuntes-git.git * Url del repositorio
+-git push -u origin master
+
 ### Otros comandos
 -git rm nombreArchibo * Elimina archivos ratreados del direcotrio de preparacion y de nuestro directorio de trabajo.
 -git checkout -- nombreArchivo, hash, etiqueta o rama * En caso de que eliminemos un archivo, asi lo podemos recuperar del directorio de git o usando el hash de algun punto especifico del tiempo.
