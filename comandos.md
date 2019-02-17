@@ -76,4 +76,8 @@ git rm nombreArchibo * Elimina archivos ratreados del direcotrio de preparacion 
 git mv nombreArchivo * Renombra un archivo.
 git clone url del repositorio * Copia el repositorio remoto.
 git fetch origin nombreRama * Nos trae los cambio desde el repositorio remoto y a continuacion se debe hacer un merge entre la rama local y la que trajimos con los cambios.
+git push origin --delete nombreRama * Elimina una rama remota.
+git pull origin master * Nos trae los cambio y nos hace merge con la rama local [Nos evita usar el fetch y despues merge].
+git remote --verbose * Nos muestra los repositorios remotos que tengamos configurados.
+git remote add nombreRepo URL * Nos agrega un nuevo repositorio remoto a la configuracion.
 ```
