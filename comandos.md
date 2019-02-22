@@ -66,7 +66,7 @@ git push -u origin master
 
 ### Repositorio existente
 ```
-git remote add origin https://github.com/zantimejia/apuntes-git.git * Url del repositorio
+git remote add origin https://github.com/zantimejia/apuntes-git.git * Con este comando vinculoamos nuestro repositorio local con GitHub.
 git push -u origin master
 ```
 
