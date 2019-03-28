@@ -73,6 +73,7 @@ git push -u origin master
 ### Otros comandos
 ```
 git rm nombreArchibo * Elimina archivos rastreados del direcotrio de preparacion y de nuestro directorio de trabajo.
+git rm -r micarpeta * Elimina una carpeta rastreada del direcotrio de preparacion y de nuestro directorio de trabajo.
 git mv nombreArchivo * Renombra un archivo.
 git clone url del repositorio * Copia el repositorio remoto.
 git fetch origin nombreRama * Nos trae los cambio desde el repositorio remoto y a continuacion se debe hacer un merge entre la rama local y la que trajimos con los cambios.
